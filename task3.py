@@ -22,7 +22,7 @@ fig = px.line(data, x='date', y='sales', title='Sales Over Time',
 
 # Define the layout of the app
 app.layout = html.Div(children=[
-    html.H1(children='Soul Foods Sales Visualizer'),
+    html.H1(id='header',children='Soul Foods Sales Visualizer'),
     dcc.Graph(
         id='sales-line-chart',
         figure=fig
