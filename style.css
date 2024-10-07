@@ -1,0 +1,72 @@
+/* Global Styles */
+body {
+    background-color: #f0f4f8; /* Light background color for better contrast */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark text color */
+}
+
+/* Header Style */
+h1 {
+    font-size: 2.5em; /* Larger font size for the header */
+    color: #007bff; /* Primary color for the header */
+    text-align: center;
+    margin: 30px 0; /* Space around the header */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Radio Items */
+.radio-item {
+    margin: 10px 0;
+}
+
+/* Radio Button Styling */
+input[type="radio"] {
+    accent-color: #007bff; /* Change radio button color */
+}
+
+.radio-label {
+    font-size: 1.2em; /* Slightly larger font for labels */
+    margin-left: 10px; /* Space between radio and label */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.radio-label:hover {
+    color: #0056b3; /* Change color on hover for better UX */
+}
+
+/* Graph Styles */
+.dash-graph {
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin-top: 20px; /* Space above the graph */
+}
+
+/* Button Styles (if applicable) */
+button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Output Text Style */
+#output {
+    margin-top: 20px;
+    font-size: 1.2em; /* Slightly larger font */
+    text-align: center; /* Center aligned */
+    color: #555; /* Medium dark text color */
+    padding: 10px; /* Padding around the text */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
